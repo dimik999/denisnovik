@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy Medium';
+  src: url('../assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black-color: #070707;
+  --gray-color: #828282;
+  --bgc-colorwh: #FFFFFF;
+  --bgc-colorgr: #F6F6F6;
+}
+
+body {
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.list-reset {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header__row {
+  display: flex;
+  margin-left: 0 auto;
+  justify-content: space-between;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.header__row a {
+  text-decoration: none;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.header__underline {
+  width: 1000px;
+  height: 0px;
+  border: 1px solid var(--gray-color);
+}
+
+.h1 {
+  display: block;
+  width: 100%;
+  font-family: 'Gilroy Bold', Arial, sans-serif;
+  font-size: 47px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.whoami {
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-size: 34px;
+  margin: 0 auto;
+}
+
+.about-me {
+  margin-top: 105px;
+  background-color: var(--bgc-colorgr);
+}
+
+.about-me__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 114px;
+  margin: 0 auto;
+}
+
+.about-me__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding-bottom: 114px;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.skills {
+  margin-top: 91px;
+  margin-bottom: 110px;
+}
+
+.skills-svg {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.skills__text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 69px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 83.5px;
+}
+
+.container2 p {
+  text-align: center;
+}
+
+.skills-svg__icon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+  margin: 0 auto;
+}
+
+.skills-svg__title {
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.skills-svg__title2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.skills-svg__title3 {
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 59.5px;
+}
+
+.portfolio {
+  background-color: var(--bgc-colorgr);
+}
+
+.portfolio__title {
+  padding-top: 112px;
+  margin-bottom: 47px;
+}
+
+.portfolio-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-card__image {
+  margin: 0 auto;
+}
+
+.portfolio-card__text {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-top: 45px;
+  padding-bottom: 99px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 114px;
+  text-align: center;
+}
+
+.contacts__text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.message__btn {
+  justify-content: center;
+  width: 180px;
+  height: 42px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 13px;
+  border: 1px solid var(--black-color);
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--bgc-colorwh);
+  background-color: var(--black-color);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--black-color);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn_transparent {
+  background-color: transparent;
+}
+
+.btn_transparent:hover {
+  background-color: var(--gray-color);
+}
