@@ -27,6 +27,10 @@ body {
   font-family: 'Gilroy Medium', Arial, sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 .list-reset {
   display: block;
   list-style: none;
@@ -61,6 +65,14 @@ body {
   border: 1px solid var(--gray-color);
 }
 
+.container-main {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 .h1 {
   display: block;
   width: 100%;
@@ -71,9 +83,48 @@ body {
   overflow: hidden;
 }
 
+.h1 h1 {
+  margin: 0 auto;
+}
+
 .whoami {
   display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
   justify-content: center;
+  width: 100%;
+  margin-top: 94px;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.ru-eng {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  transform: rotate(-90deg);
+  font-family: 'Gilroy Bold', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.ru-eng p {
+  margin: 0;
+}
+
+.ru {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+.first-screen__den {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .h2 {
@@ -82,11 +133,19 @@ body {
   width: 100%;
   font-family: "Gilroy Bold", Arial, sans-serif;
   font-size: 34px;
+  margin: 0 auto;
 }
 
 .about-me {
   margin-top: 105px;
   background-color: var(--bgc-colorgr);
+}
+
+.about-me__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 114px;
+  margin: 0 auto;
 }
 
 .about-me__text {
@@ -99,28 +158,29 @@ body {
   font-size: 18px;
 }
 
-.about-me__title {
-  display: flex;
-  justify-content: center;
-  padding-top: 114px;
+.skills {
+  margin-top: 91px;
+  margin-bottom: 110px;
 }
 
-.section__title {
-  margin-top: 114px;
+.skills-svg {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .skills__text {
   display: flex;
   justify-content: center;
-  margin-top: 69px;
-  margin-bottom: 83.5px;
   font-family: 'Gilroy Medium', Arial, sans-serif;
   font-size: 18px;
+  margin-top: 69px;
 }
 
 .container2 {
   display: flex;
   justify-content: space-between;
+  margin-top: 83.5px;
 }
 
 .container2 p {
@@ -131,6 +191,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
+  margin: 0 auto;
 }
 
 .skills-svg__title {
@@ -144,7 +205,120 @@ body {
   margin-bottom: 40px;
 }
 
+.skills-svg__title3 {
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 59.5px;
+}
+
 .portfolio {
-  padding-top: 114px;
   background-color: var(--bgc-colorgr);
+}
+
+.portfolio__title {
+  padding-top: 112px;
+  margin-bottom: 47px;
+}
+
+.portfolio-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-card__image {
+  margin: 0 auto;
+}
+
+.portfolio-card__text {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-top: 45px;
+  padding-bottom: 99px;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 18px;
+  color: var(--black-color);
+}
+
+.footer {
+  display: flex;
+  margin-top: 114px;
+  text-align: center;
+}
+
+.contacts__text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.message__btn {
+  justify-content: center;
+  width: 180px;
+  height: 42px;
+  margin-bottom: 86px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 13px;
+  border: 1px solid var(--black-color);
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--bgc-colorwh);
+  background-color: var(--black-color);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--black-color);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn_transparent {
+  background-color: transparent;
+}
+
+.btn_transparent:hover {
+  background-color: var(--gray-color);
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 342px;
+  max-width: 100%;
+  margin-bottom: 86px;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: 'Gilroy Medium', Arial, sans-serif;
+  font-size: 14px;
+  color: var(--gray-color);
+  margin-bottom: 123px;
+}
+
+.a-btn {
+  display: inline-block;
+  font-family: "Gilroy Bold", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  color: var(--gray-color);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.a-btn:hover {
+  color: var(--black-color);
 }
