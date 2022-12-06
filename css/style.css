@@ -31,8 +31,11 @@ img {
   width: 100%;
 }
 
+.ul-row {
+  display: flex;
+}
+
 .list-reset {
-  display: block;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -100,13 +103,11 @@ img {
 
 .ru-eng {
   display: flex;
-  flex-direction: column;
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  transform: rotate(-90deg);
   font-family: 'Gilroy Bold', Arial, sans-serif;
   font-size: 16px;
 }

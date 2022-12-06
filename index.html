@@ -18,13 +18,15 @@
 
   <header class="header" id="header">
     <div class="container">
-      <div class="header__row">
-        <a class="a-btn" href="#">Home</a>
-        <a class="a-btn" href="#">About&nbsp;me</a>
-        <a class="a-btn" href="#">Skills</a>
-        <a class="a-btn" href="#">Portfolio</a>
-        <a class="a-btn" href="#">Contacts</a>
-      </div>
+      <nav>
+        <ul class="header__row list-reset">
+          <li><a class="a-btn" href="#">Home</a></li>
+          <li><a class="a-btn" href="#aboutme">About&nbsp;me</a></li>
+          <li><a class="a-btn" href="#skills">Skills</a></li>
+          <li><a class="a-btn" href="#portfolio">Portfolio</a></li>
+          <li><a class="a-btn" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="container header__underline"></div>
   </header>
@@ -42,10 +44,9 @@
           </p>
         </div>
         <div class="ru-eng">
-          <p>
-            <a class="ru a-btn" href="#">RU</a>
-            | ENG
-          </p>
+          <btn class="ru a-btn" href="#">RU</btn>
+          |
+          <btn class="eng a-btn" href="#">ENG</btn>
         </div>
       </div>
       <div class="first-screen__den">
@@ -53,7 +54,7 @@
       </div>
     </section>
 
-    <section class="about-me section">
+    <section class="about-me section" id="aboutme">
       <div class="container">
         <h2 class="about-me__title h2">About me</h2>
         <div class="about-me__text">
@@ -73,7 +74,7 @@
       </div>
     </section>
 
-    <section class="skills section">
+    <section class="skills section" id="skills">
       <div class="container">
         <h2 class="skills__title h2">Skills</h2>
         <div class="skills__text">
@@ -273,7 +274,7 @@
       </div>
     </section>
 
-    <section class="portfolio section">
+    <section class="portfolio section" id="portfolio">
       <div class="container">
         <h2 class="portfolio__title h2">Portfolio</h2>
         <div class="portfolio__cards">
@@ -307,7 +308,7 @@
   </main>
 
   <footer>
-    <div class="footer section">
+    <div class="footer section" id="contacts">
       <div class="container">
         <h2 class="contacts__title h2">Contacts</h2>
         <div class="contacts__text">
