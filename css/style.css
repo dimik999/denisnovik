@@ -73,7 +73,6 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  justify-content: space-between;
 }
 
 .h1 {
@@ -110,6 +109,10 @@ img {
   align-items: center;
   font-family: 'Gilroy Bold', Arial, sans-serif;
   font-size: 16px;
+}
+
+.lang {
+  rotate: -90deg;
 }
 
 .ru-eng p {
