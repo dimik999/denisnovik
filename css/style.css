@@ -314,7 +314,7 @@ img {
 }
 
 .a-btn {
-  display: inline-block;
+  display: flex;
   font-family: "Gilroy Bold", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -325,4 +325,42 @@ img {
 
 .a-btn:hover {
   color: var(--black-color);
+}
+
+.submenu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: var(--bgc-colorwh);
+  padding: 68px 20px 57px 20px;
+}
+
+.submenu__links {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+  width: 165px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 23px;
+}
+
+.submenu__close {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: 450px) {
+  .header {
+    display: none;
+  }
 }
