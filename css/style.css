@@ -314,7 +314,7 @@ img {
 }
 
 .a-btn {
-  display: flex;
+  display: inline-block;
   font-family: "Gilroy Bold", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
