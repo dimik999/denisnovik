@@ -29,6 +29,15 @@
       </nav>
     </div>
     <div class="container header__underline"></div>
+    <div class="navbar-mob">
+      <button class="btnmob" id="opbtn">
+        <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="33" height="3.83721" fill="black"/>
+          <rect y="7.67432" width="33" height="3.83721" fill="black"/>
+          <rect y="15.3486" width="33" height="3.83721" fill="black"/>
+        </svg>
+      </button>
+    </div>
   </header>
 
   <main>
@@ -45,14 +54,17 @@
         </div>
         <div class="ru-eng">
           <div class="lang">
-            <btn class="ru a-btn" href="#">RU</btn>
+            <button class="ru a-btn" href="#">RU</button>
             |
-            <btn class="eng a-btn" href="#">ENG</btn>
+            <button class="eng a-btn" href="#">ENG</button>
           </div>
         </div>
       </div>
       <div class="first-screen__den">
         <img src="/assets/img/den4ik.png" alt="den4ik">
+      </div>
+      <div class="first-screen__denm">
+        <img src="/assets/img/den4ikm.png" alt="den4ikm">
       </div>
     </section>
 
@@ -128,7 +140,7 @@
               </svg>
             </div>
           </article>
-          <article class="skills-svg">
+          <article class="skills-svg martop">
             <svg class="skills-svg__icon" width="90" height="89" viewBox="0 0 90 89" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path d="M4.20239 3.7832H85.9629V84.7881H4.20239V3.7832Z" fill="url(#paint0_radial_254_448)" />
@@ -173,7 +185,7 @@
               </svg>
             </div>
           </article>
-          <article class="skills-svg">
+          <article class="skills-svg martop">
             <svg class="skills-svg__icon" width="90" height="89" viewBox="0 0 90 89" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path d="M4.20239 3.7832H85.9629V84.7881H4.20239V3.7832Z" fill="url(#paint0_radial_254_447)" />
@@ -187,6 +199,7 @@
                   <stop offset="1" stop-color="#12002C" />
                 </radialGradient>
               </defs>
+            </svg>
               <p class="skills-svg__title">Adobe</p>
               <p class="skills-svg__title2">After Effects</p>
               <div class="stars1">
@@ -217,7 +230,7 @@
                 </svg>
               </div>
           </article>
-          <article class="skills-svg">
+          <article class="skills-svg martop">
             <svg class="skills-svg__icon" width="59" height="89" viewBox="0 0 59 89" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_254_450)">
@@ -403,7 +416,7 @@
     </div>
   </footer>
 
- <!-- <div class="submenu">
+ <div class="submenu" id="mobmenu">
     <div>
       <ul class="submenu__links list-reset">
         <li><a class="a-btn" href="#">Home</a></li>
@@ -412,25 +425,24 @@
         <li><a class="a-btn" href="#portfolio">Portfolio</a></li>
         <li><a class="a-btn" href="#contacts">Contacts</a></li>
       </ul>
-      <div class="buttons">
-        <button class="submenu__close">
+      <button class="submenu__close" id="clbtn">
           <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282" />
             <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)"
               fill="#828282" />
           </svg>
-        </button>
-        <div class="ru-eng">
+      </button>
+      <div class="ru-eng-nav">
           <div class="lang">
-            <btn class="ru a-btn" href="#">RU</btn>
+            <button class="ru a-btn" href="#">RU</button>
             |
-            <btn class="eng a-btn" href="#">ENG</btn>
+            <button class="eng a-btn" href="#">ENG</button>
           </div>
-        </div>
+      </div>
       </div>
     </div>
   </div>
--->
+
 </body>
 
 </html>
