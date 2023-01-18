@@ -379,7 +379,7 @@ img {
 }
 
 @media (max-width: 520px) {
-  .container {
+  .nav {
     display: none;
   }
 
@@ -396,14 +396,14 @@ img {
   .h1 {
     margin-top: 65px;
     margin-bottom: 0px;
-    font-size: 2.9375rem;
+    font-size: 47px;
   }
 
   .whoami {
     text-align: left;
     margin-top: 23px;
     margin-bottom: 37px;
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 
   .ru-eng {
@@ -427,7 +427,7 @@ img {
   }
 
   .footer__text {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 
   .navbar-mob {
@@ -447,11 +447,11 @@ img {
     position: absolute;
     bottom: 200px;
     right: 0px;
-    font-size: 2.125rem;
+    font-size: 34px;
   }
 
   .a-btn {
-    font-size: 2.125rem;
+    font-size: 34px;
     text-decoration: none;
   }
 }
